@@ -1,0 +1,108 @@
+2006-07-21 13:41:48, INFO [13922] [Hashtable_new()] hash_tab.c[100] - Allocated hash table at [0x804c00c], of size: h->tablelength == 19
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1310870
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[3] --> &entry == 0x804c130
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1310870
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[3] --> &entry == 0x804c130
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1441943
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[14] --> &entry == 0x804c198
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1441943
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[14] --> &entry == 0x804c198
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1573016
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[6] --> &entry == 0x804c200
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1573016
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[6] --> &entry == 0x804c200
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1704089
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[17] --> &entry == 0x804c2b0
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1704089
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[17] --> &entry == 0x804c2b0
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1835162
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[9] --> &entry == 0x804c318
+2006-07-21 13:41:48, DEBUG[13922] [hash()] hash_tab.c[339] - hashfn  == 1835162
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[9] --> &entry == 0x804c318
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_first()] hash_tab.c[151] - Found entry at h->table[3] --> &entry 0x804c130
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 3 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[6] --> &entry 0x804c200
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 6 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 6 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[9] --> &entry 0x804c318
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 9 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 9 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[14] --> &entry 0x804c198
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 14 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 14 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[17] --> &entry 0x804c2b0
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 17 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 17 <= length 19
+2006-07-21 13:41:48, DEBUG[13922] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 19 <= length 19
+2006-07-21 13:42:50, INFO [13944] [Hashtable_new()] hash_tab.c[100] - Allocated hash table at [0x804c00c], of size: h->tablelength == 19
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1310870
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[3] --> &entry == 0x804c130
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1310870
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[3] --> &entry == 0x804c130
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1441943
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[14] --> &entry == 0x804c198
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1441943
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[14] --> &entry == 0x804c198
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1573016
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[6] --> &entry == 0x804c200
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1573016
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[6] --> &entry == 0x804c200
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1704089
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[17] --> &entry == 0x804c2b0
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1704089
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[17] --> &entry == 0x804c2b0
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1835162
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[9] --> &entry == 0x804c318
+2006-07-21 13:42:50, DEBUG[13944] [hash()] hash_tab.c[339] - hashfn  == 1835162
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[9] --> &entry == 0x804c318
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_first()] hash_tab.c[151] - Found entry at h->table[3] --> &entry 0x804c130
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 3 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[6] --> &entry 0x804c200
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 6 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 6 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[9] --> &entry 0x804c318
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 9 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 9 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[14] --> &entry 0x804c198
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 14 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 14 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[17] --> &entry 0x804c2b0
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 17 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 17 <= length 19
+2006-07-21 13:42:50, DEBUG[13944] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 19 <= length 19
+2006-07-21 13:46:02, INFO [14019] [Hashtable_new()] hash_tab.c[100] - Allocated hash table at [0x804c00c], of size: h->tablelength == 19
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1310870
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[3] --> &entry == 0x804c130
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1310870
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[3] --> &entry == 0x804c130
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1441943
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[14] --> &entry == 0x804c198
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1441943
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[14] --> &entry == 0x804c198
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1573016
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[6] --> &entry == 0x804c200
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1573016
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[6] --> &entry == 0x804c200
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1704089
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[17] --> &entry == 0x804c2b0
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1704089
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[17] --> &entry == 0x804c2b0
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1835162
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_add()] hash_tab.c[522] - Test, add value key pair at h->table[9] --> &entry == 0x804c318
+2006-07-21 13:46:02, DEBUG[14019] [hash()] hash_tab.c[339] - hashfn  == 1835162
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_get()] hash_tab.c[577] - Test, get value key pair at h->table[9] --> &entry == 0x804c318
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_first()] hash_tab.c[151] - Found entry at h->table[3] --> &entry 0x804c130
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 3 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[6] --> &entry 0x804c200
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 6 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 6 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[9] --> &entry 0x804c318
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 9 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 9 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[14] --> &entry 0x804c198
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 14 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 14 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[201] - Found entry at h->table[17] --> &entry 0x804c2b0
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 17 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[195] - h->table[?] index 17 <= length 19
+2006-07-21 13:46:02, DEBUG[14019] [Hashtable_next()] hash_tab.c[207] - h->table[?] i 19 <= length 19
